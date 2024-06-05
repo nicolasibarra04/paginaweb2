@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(211, 224, 224);
+}
+.alinear_flex{
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+
+.contenedor{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+a{
+    text-decoration: none;
+    color: rgb(194, 25, 25);
+}
+.c1{
+    background-color: white;
+    padding: 25px;
+border: 5px dotted black;
+
+ 
+}
+.c2{
+    background-color: white;
+    padding: 25px;
+border: 5px dotted black
+}
+.c3{
+    background-color: white;
+    padding: 25px;
+border: 5px dotted black
+}
+
+@media(max-width: 480px){
+        h1{
+            color: white;
+        }
+        h2{
+            color: white;
+        }
+        body{
+        background-color: black;
+    }
+    .contenedor{
+        background-color: black;
+
+    }
+}
+
+body{
+    background-color: rgb(211, 224, 224);
+}
+header{
+    color: pink;
+    text-align: center;
+    background-color: rgb(102, 219, 223);
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   h1{background-color: rgb(161, 240, 158);
+    padding: 25px;
+    width: 20%;
+border: 5px dotted black
+}
+h2{
+    color: pink;
+}
+p{
+    color: pink;
+}
+    
+}
+
+@media(max-width:480px){
+
+    .container2{
+        background-color: black;
+        
+
+    }
+    
+
+
+}
+@media(min-width:1020px){
+    .container2{
+        background-color: red;
+    }
+
+}
+
+
